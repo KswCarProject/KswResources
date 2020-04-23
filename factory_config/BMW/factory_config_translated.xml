@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ConfigInfo>
+
+    <!-- List of supported navigation applications -->
+    <SupportNaviAppList>
+        <Item name = "com.baidu.BaiduMap" />
+        <Item name = "com.baidu.BaiduMap.auto" />
+        <Item name = "com.mxnavi" />
+        <Item name = "com.mxnavi.naviapp" />
+        <Item name = "com.autonavi" />
+        <Item name = "com.autonavi.amapauto" />
+        <Item name = "com.tencent.map" />
+        <Item name = "com.tencent.wecarnavi" />
+        <Item name = "com.sogou.map.android.maps" />
+        <Item name = "com.cld" />
+        <Item name = "cld.navi.mainframe" />
+        <Item name = "cld.navi.c3588.mainframe" />
+        <Item name = "cld.navi.c2739.mainframe" />
+        <Item name = "cld.navi.c3551.mainframe" />
+        <Item name = "cld.navi.k3618.mainframe" />
+        <Item name = "cld.navi" />
+        <Item name = "com.kingwaytek" />
+        <Item name = "com.kingwaytek.naviking3d" />
+        <Item name = "com.papago.M11_Int" />
+        <Item name = "com.papago.M11General" />
+        <Item name = "com.papago.s1OBU" />
+        <Item name = "com.papago" />
+        <Item name = "com.loco" />
+        <Item name = "com.sygic.aura" />
+        <Item name = "com.google.android.apps.maps" />
+        <Item name = "com.mireo.magnav" />
+        <Item name = "com.mireo.dontpanic.android.incyclone" />
+        <Item name = "com.waze" />
+        <Item name = "com.mapbar.android.mapbarmap" />
+        <Item name = "com.mapbar.android.carnavi" />
+        <Item name = "com.nng.igoprimo.javaclient" />
+        <Item name = "com.nng.igo.primong.hun10th" />
+        <Item name = "com.nng.igo.primong.igoworld" />
+        <Item name = "com.nng.igoprimoisr2013march24.javaclient" />
+        <Item name = "com.nng.igoprimoisrael.javaclient" />
+        <Item name = "com.navngo.igo.javaclient" />
+        <Item name = "com.basarsoft.igo.javaclient" />
+        <Item name = "com.basarsoft.igonextgen.javaclient" />
+        <Item name = "com.mapswithme.maps.pro" />
+        <Item name = "com.here.app.maps" />
+        <Item name = "ru.yandex.yandexnavi" />
+        <Item name = "com.polstar.polnav6" />
+        <Item name = "com.nhn.android.nmap" />
+        <Item name = "jp.co.yahoo.android.apps.navi" />
+        <Item name = "com.mnsoft.mappyobn" />
+        <Item name = "com.mnsoft.mappyauto" />
+    </SupportNaviAppList>
+
+    <!-- List of supported DVR applications -->
+    <SupportDvrAppList>
+        <Item name = "com.ankai.cardvr" />
+        <Item name = "com.anwensoft.cardvr" />
+        <Item name = "com.sicadroid.ucam_car" />
+        <Item name = "com.building.dvr" />
+    </SupportDvrAppList>
+
+    <!-- List of parameters of original car display -->
+    <CarDisplayParam>
+        <model id = "1"  client ="ALL" tips ="1">[01]NBT_F48/F49(6.5″,HalfScreen)</model>
+        <model id = "7"  client ="ALL" tips ="1">[02]NBT_F48/F49(6.5″,FullScreen)</model>
+        <model id = "9"  client ="ALL" tips ="1">[03]NBT_F48(8.8″,10.25″)</model>
+        <model id = "4"  client ="ALL" tips ="1">[04]CIC_E60(2012)/E83(6.5,HalfScreen)</model>
+        <model id = "5"  client ="ALL" tips ="1">[05]CIC_E60(2012)/E83(6.5,FullScreen)</model>
+        <model id = "11" client ="ALL" tips ="1">[06]CIC_E60(2011)(6.5,HalfScreen)</model>
+        <model id = "12" client ="ALL" tips ="1">[07]CIC_E60(2011)(6.5,FullScreen)</model>
+        <model id = "6"  client ="ALL" tips ="1">[08]CIC_X5(2009)/E60(2011)(8.8″,10.25″)</model>
+        <model id = "8"  client ="ALL" tips ="1">[09]CIC_7Series(2011)(8.8″,10.25″)</model>
+        <model id = "2"  client ="ALL" tips ="1">[10]CCC_E60(6.5″,FullScreen)</model>
+        <model id = "3"  client ="ALL" tips ="1">[11]CCC_E60(8.8″,FullScreen)</model>
+        <model id = "14" client ="ALL" tips ="1">[12]CCC_E60(2010)(8.8″,FullScreen)</model>
+        <model id = "18" client ="ALL" tips ="1">[13]CCC_E60(2008)(6.5″,FullScreen)</model>
+        <model id = "13"  client ="ALL" tips ="1">[14]18_EVO(6.5,HalfScreen)</model>
+        <model id = "19"  client ="ALL" tips ="1">[15]18_EVO(6.5,FullScreen)</model>
+        <model id = "20"  client ="ALL" tips ="1">[16]18_EVO(8.8)</model>        
+        <model id = "21"  client ="ALL" tips ="1">[17]18_EVO_X1(8.8,1280x480)</model>         
+        <model id = "22"  client ="ALL" tips ="1">[18]19_EVO_X3(10.25, 1440x540)</model>        
+    </CarDisplayParam>
+
+    <!-- List of CAN Bus protocols -->
+    <CANBusProtocol>
+        <Protocol id = "1">[1]CCC</Protocol>
+        <Protocol id = "2">[2]CIC</Protocol>
+        <Protocol id = "3">[3]NBT</Protocol>
+        <Protocol id = "4">[4]NBT-EVO</Protocol>
+    </CANBusProtocol>
+
+    <!-- List of supported languages -->
+    <SupportLanguageList>
+        <Item id="0" name = "简体中文" tips ="Simplified Chinese" />
+        <Item id="1" name = "繁體中文" tips ="traditional Chinese" />
+        <Item id="2" name = "English" tips ="English" />
+        <Item id="3" name = "Deutsch" tips ="German" />        
+        <Item id="5" name = "Español" tips ="Spanish" />
+        <Item id="8" name = "한국어" tips ="Korean" />    
+        <Item id="9" name = "Italiano" tips ="Italian" />
+        <Item id="13" name = "Nederlands" tips ="Dutch" />
+        <Item id="6" name = "русский" tips ="Russian"/>
+        <Item id="15" name = "Français" tips ="French"/>
+    <!--    
+        <Item id="4" name = "Português" tips ="Portuguese"/>        
+        <Item id="7" name = "日本語" tips ="Japanese"/>                    
+        <Item id="10" name = "Suomi" tips ="Finnish"/>
+        <Item id="11" name = "Türkçe" tips ="Turkish"/>
+        <Item id="12" name = "Tiếng Việt" tips ="Vietnamese"/>      
+        <Item id="14" name = "עברית" tips ="Hebrew (Israel"/> 
+        <Item id="15" name = "Ελληνικά" tips ="Greek"/> 
+    -->
+    </SupportLanguageList>
+
+    <!-- Supported UI -->
+    <SupportUIList>
+        <Item id="1" name = "BMW_EVO_ID5" />
+        <Item id="2" name = "BMW_EVO_ID6" />
+        <Item id="5" name = "BMW_EVO_ID7" />   
+        <Item id="8" name = "Common_UI_GS" />
+    </SupportUIList>
+
+    <!-- System settings -->
+    <setings>
+        <!-- Name of navigation application -->
+        <NaviApp>com.google.android.apps.maps</NaviApp>
+
+        <!-- Image of rear view camera  0：Not mirrored  1：Mirrored -->
+        <RearCamMirror>0</RearCamMirror>
+
+        <!-- Video disabled while driving  0：Off 1：On -->
+        <DoNotPlayVideosWhileDriving>0</DoNotPlayVideosWhileDriving>
+
+        <!-- Display track when reversing  0：Off  1：On -->
+        <ShowTrack>1</ShowTrack>
+
+        <!-- Display PDC when reversing  0：Off 1：On -->
+        <ShowRadar>1</ShowRadar>
+
+        <!-- Mute sound while reversing  0：Off 1：On -->
+        <ReversingMuteSelect>0</ReversingMuteSelect>
+
+        <!-- Open the front view camera  :0：Off  1：On  -->
+        <Front_view_camera>0</Front_view_camera>
+
+        <!-- Selection of reversing camera  0：Aftermarket rear camera  1：Original car camera  2：Aftermarket 360 camera -->
+        <RearCamType>0</RearCamType>
+
+        <!-- Brightness 0～100 -->
+        <Brightness>100</Brightness>
+
+        <!-- Android media volume 0～40 -->
+        <Android_media_vol>26</Android_media_vol>
+
+        <!-- Android phone volume 0～40 -->
+        <Android_phone_vol>28</Android_phone_vol>
+
+        <!-- Car phone volume 0～40 -->
+        <Car_phone_vol>20</Car_phone_vol>
+
+        <!-- Car navigation volume 0～40 -->
+        <Car_navi_vol>20</Car_navi_vol>
+
+        <!-- System language  see List of supported languages -->
+        <Language>3</Language>
+
+        <!-- Time synchronization source  0：Android time  1：Car system time -->
+        <TimeSyncSoucrce>0</TimeSyncSoucrce>
+
+        <!-- Time Format  0：24 hour  1：12 hour -->
+        <TimeFormat>0</TimeFormat>
+
+        <!-- Radio mix to navigation  0：shut down  1：30% 2：40% 3：50% 4：60%  5：70% -->
+        <NaviMix>3</NaviMix>
+
+        <!-- Equalizer  0:customize 1:Pop 2:Classic 3:Rock 4:Jazz 5:Dance -->
+        <EQ_mode>0</EQ_mode>
+
+        <!-- Bass  0~24 :  0 =>-12  12=>0  24=>+12 -->
+        <Bass_value>12</Bass_value>
+
+        <!-- Mid  0~24 :  0 =>-12  12=>0  24=>+12 -->
+        <Middle_value>12</Middle_value>
+
+        <!-- Treble  0~24 :  0 =>-12  12=>0  24=>+12 -->
+        <Treble_value>12</Treble_value>
+
+        <!-- Setting the AUX input of the car  0~12 :  0:switch off the AUX input -->
+        <CarAuxIndex>2</CarAuxIndex>
+
+    </setings>
+
+    <!-- Factory setting -->
+    <factory>
+        <!-- Version information-->
+        <ver>GS-BMW-20191016.en</ver> 
+
+        <!-- Vendor information-->     
+        <client>all</client>
+
+        <!-- Password of factory setting (4~6 digits) -->
+        <password>1314</password>
+
+        <!-- Android 7.1 UI selection  see Supported UI -->
+        <UI>2</UI>
+
+        <!-- Android 9.0 UI selection  see Supported UI -->
+        <UI_type>BMW_EVO_ID7</UI_type>
+
+        <!-- Original display style  0：full screen display  1：Half screen display, driving computer information on the right -->
+        <CarVideoDisplayStyle>0</CarVideoDisplayStyle>
+
+        <!-- Left logo of Audi home page  0:Do not show 1:A4L1(default) 2:A4L2 3:A4L3 4:Q5 5：dedicated logo 6:A3 7:A5 8:A6 9:Q3 10:Q7 11:General -->
+        <Audi_Logo_Left>11</Audi_Logo_Left>
+
+        <!-- Right logo of Audi home page  0:Do not show 1:display AUDI LOGO And high German navigation information 2:Display only AUDI LOGO 
+                   3:Display driving information 4:Display music information -->
+        <Audi_Logo_Right>4</Audi_Logo_Right>
+
+        <!-- Google APP  0:Off  1:On -->
+        <GoogleAPP>1</GoogleAPP>
+
+        <!-- FM transmission support  0：Off  1：On  -->
+        <Support_FM_Transmit>0</Support_FM_Transmit>
+
+        <!-- Support dashboard  0：Off  1：On  -->
+        <Support_dashboard>1</Support_dashboard>
+
+        <!-- DVD module type  0:Off  1: DVD software 1 -->
+        <DVD_Type>0</DVD_Type>
+
+        <!-- AUX function switch  0:Off  1:On -->
+        <AUX_Type>0</AUX_Type>
+
+        <!-- DTV function switch  0:Off  1:On -->
+        <DTV_Type>0</DTV_Type>
+
+        <!-- DVR module type  0:Off  1: CVBS DVR  2:USB DVR (The following USB DVR application names can be set using USB, otherwise it cannot be customized) -->
+        <DVR_Type>0</DVR_Type>
+
+        <!-- USB DVR application names  Default: Ankai (Valid when the DVR module type is USB DVR) Old: com.anwensoft.cardvr  New: com.ankai.cardvr -->
+        <DVRApk_PackageName>com.ankai.cardvr</DVRApk_PackageName>
+
+        <!-- Bluetooth function  0: Bluetooth of the Android Unit 1: Bluetooth of the car  -->
+        <BT_Type>0</BT_Type>
+
+        <!-- Installation of third-party apps 0:allow  1:Prohibited  -->
+        <APK_Install>0</APK_Install>
+
+        <!-- Type of the original head unit with AUX input  1:Alpine  2:Harman  3: other -->
+        <CarAux_auto_method>3</CarAux_auto_method>
+
+        <!-- Switching mode of original head unit AUX imput  0:Automatic switching  1:Manual switching -->
+        <CarAux_Operate>1</CarAux_Operate>
+
+        <!-- Amplifier selection:  0:Original car amplifier 1:External amplifier box -->
+        <AMP_Type>0</AMP_Type>
+
+        <!-- Old BMW X1 (no display)  0:Display clock  1: Show original car monitor -->
+        <CarDisplay>1</CarDisplay>
+
+        <!-- Support for voice commands  0:Off  1:On -->
+        <Support_TXZ>0</Support_TXZ>
+
+        <!-- Awakening words -->
+        <TXZ_Wakeup>Hello, Serena</TXZ_Wakeup>
+
+        <!-- Support for voice wake-up  0:Off  1:On -->
+        <Support_TXZ_Voice_Wakeup>0</Support_TXZ_Voice_Wakeup>
+
+        <!-- CCC_IDrive Type selection  0：IDrive_A  1：IDrive_B -->
+        <CCC_IDrive>0</CCC_IDrive>
+
+        <!-- Setting the maximum speed of the dashboard  0：240  1：260  2: 300  3:280 -->
+        <Dashboard_MaxSpeed>1</Dashboard_MaxSpeed>
+
+        <!-- Switching of the Reversing Camera  0：Automatic 1：Manual -->
+        <HandsetAutomaticSelect>0</HandsetAutomaticSelect>
+
+        <!-- Door settings  0：Left driver's seat  1：Right driver's seat  2：The door does not display  -->
+        <CarDoorSelect>0</CarDoorSelect>
+
+        <!-- USB mode  0：Off  1：On -->
+        <USB_HOST>1</USB_HOST>
+
+        <!-- WiFi or 4G  0：4G  1：WiFi -->
+        <Wifi_or_4G>0</Wifi_or_4G>
+
+                     <!-- from 190417 -->
+        <!-- Selection the car's voice button function  0:No effect 1：Short press no effect, long press navigation function  2：Short press voice function, long press navigation function
+                 3：Short press navigation function, long press no effect -->
+        <Voice_key>0</Voice_key>
+
+        <!-- Selection the car's NAV button function  0:Original car navigation  1：Android navigation -->
+        <Map_key>1</Map_key>
+
+        <!-- 360 camera type  0:CVBS  1:VGA -->
+        <cam360_video>0</cam360_video>
+
+        <!-- Number of doors  0：4 doors  1：2 doors -->
+        <CarDoorNum>0</CarDoorNum>
+        
+                     <!-- from 190522 -->       
+        <!-- Selection the car's mode button function  0:short press Menu, long press switch between Original and Android screen  1：No effect -->
+        <Mode_key>1</Mode_key>
+        
+        <!-- Automatic backlight control  0：On  1：Off -->
+        <Backlight_auto_set>1</Backlight_auto_set> 
+        
+        <!-- Dashboard unit Mercedes Benz  0：Off  1：On -->
+        <BenzPanelEnable>0</BenzPanelEnable>
+        
+        <!-- Dashboard unit  0：Metric  1：Imperial -->
+        <DashBoardUnit>0</DashBoardUnit>
+
+        <!-- Dashboard selection  0：General  1：Tri-color dashboard 2: seven color Dashboard -->
+        <Dashboard_Select>2</Dashboard_Select>
+        
+		<!-- AHD Camera settings 0:not supported 1:AHD_1080_30 2:AHD_1080_25  3:AHD_720_30 4:AHD_720_25  5:AHD_720_50  6:CVBS_NTSC 7:CVBS_PAL -->
+        <AHD_cam_Select>0</AHD_cam_Select>  															   
+    </factory>
+</ConfigInfo>

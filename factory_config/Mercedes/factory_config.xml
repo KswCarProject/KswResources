@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConfigInfo>
+
+    <!-- 支持的导航软件包名列表 -->
+    <SupportNaviAppList>
+        <Item name = "com.baidu.BaiduMap" />
+        <Item name = "com.baidu.BaiduMap.auto" />
+        <Item name = "com.mxnavi" />
+        <Item name = "com.mxnavi.naviapp" />
+        <Item name = "com.autonavi.minimap" />
+        <Item name = "com.autonavi.amapauto" />
+        <Item name = "com.tencent.map" />
+        <Item name = "com.tencent.wecarnavi" />
+        <Item name = "com.sogou.map.android.maps" />
+        <Item name = "com.cld" />
+        <Item name = "cld.navi.mainframe" />
+        <Item name = "cld.navi.c3588.mainframe" />
+        <Item name = "cld.navi.c2739.mainframe" />
+        <Item name = "cld.navi.c3551.mainframe" />
+        <Item name = "cld.navi.k3618.mainframe" />
+        <Item name = "cld.navi" />
+        <Item name = "com.kingwaytek" />
+        <Item name = "com.kingwaytek.naviking3d" />
+        <Item name = "com.papago.M11_Int" />
+        <Item name = "com.papago.M11General" />
+        <Item name = "com.papago.s1OBU" />
+        <Item name = "com.papago" />
+        <Item name = "com.loco" />
+        <Item name = "com.sygic.aura" />
+        <Item name = "com.google.android.apps.maps" />
+        <Item name = "com.mireo.magnav" />
+        <Item name = "com.mireo.dontpanic.android.incyclone" />
+        <Item name = "com.waze" />
+        <Item name = "com.mapbar.android.mapbarmap" />
+        <Item name = "com.mapbar.android.carnavi" />
+        <Item name = "com.nng.igoprimo.javaclient" />
+        <Item name = "com.nng.igo.primong.hun10th" />
+        <Item name = "com.nng.igo.primong.igoworld" />
+        <Item name = "com.nng.igoprimoisr2013march24.javaclient" />
+        <Item name = "com.nng.igoprimoisrael.javaclient" />
+        <Item name = "com.navngo.igo.javaclient" />
+        <Item name = "com.basarsoft.igo.javaclient" />
+        <Item name = "com.basarsoft.igonextgen.javaclient" />
+        <Item name = "com.mapswithme.maps.pro" />
+        <Item name = "com.here.app.maps" />
+        <Item name = "ru.yandex.yandexnavi" />
+        <Item name = "com.polstar.polnav6" />
+        <Item name = "com.nhn.android.nmap" />
+        <Item name = "jp.co.yahoo.android.apps.navi" />
+        <Item name = "com.mnsoft.mappyobn" />
+        <Item name = "com.mnsoft.mappyauto" />
+        <Item name = "com.skt.tmap.ku" />
+        <Item name = "com.locnall.KimGiSa" />
+        <Item name = "kr.mappers.AtlanSmart" />
+        <Item name = "com.tomtom.gplay.navapp" />
+    </SupportNaviAppList>
+
+    <!-- 支持的DVR软件包名列表 -->
+    <SupportDvrAppList>
+        <Item name = "com.ankai.cardvr" />
+        <Item name = "com.anwensoft.cardvr" />
+        <Item name = "com.sicadroid.ucam_car" />
+        <Item name = "com.building.dvr" />
+    </SupportDvrAppList>
+
+    <!-- 原车显示参数列表 -->
+    <CarDisplayParam>
+
+        <model id = "1"  >[1]GLA220_800x480(2016~)</model>
+        <model id = "2"  >[2]GLA220_800x480(2016~)(half screen)</model>
+		
+        <model id = "3"  >[03]CLA220_800x480(2016~)</model>
+        <model id = "4"  >[04]CLA220_800x480(2016~)(half screen)</model>
+		
+        <model id = "5"  >[05]NTG5.0_8″(2014)</model>
+        <model id = "6"  >[06]NTG5.0_8″(2014)(half screen)</model>
+		
+        <model id = "7"  >[07]NTG5.0_7″(2016~)</model>
+        <model id = "8"  >[08]NTG5.0_7″(2016~)(half screen)</model>
+		
+        <model id = "9"  >[09]GLA200_700x200</model>
+        <model id = "10" >[10]GLA200_700x200(half screen)</model>
+		
+        <model id = "11" >[11]NTG4.5_400x240_5.8″(2013~2015)</model>
+        <model id = "12" >[12]NTG4.5_400x240_5.8″(2013~2015)(half screen)</model>
+
+        <model id = "13" >[13]NTG4.0/NTG4.5_800x480_7″(2013~2015)</model>
+        <model id = "14" >[14]NTG4.0/NTG4.5_800x480_7″(2013~2015)(half screen)</model>
+
+        <model id = "15" >[15]NTG4.0_5″(2008—2010)</model>
+        <model id = "16" >[16]NTG4.0_5″(2008—2010)(half screen)</model>
+
+        <model id = "17" >[17]NTG4.7_800x480_7″(2008-2010)</model>
+        <model id = "18" >[18]NTG4.7_800x480_7″(2008-2010)(half screen)</model>
+
+        <model id = "19" >[19]S350_800x480(2010)</model>
+        <model id = "20" >[20]S350_800x480(2010)(half screen)</model>
+        
+        <model id = "21" >[21]NTG3.0_800x480</model>
+        <model id = "22" >[22]NTG3.0_800x480(half screen)</model>
+
+    </CarDisplayParam>
+
+    <!-- CAN协议列表 -->
+    <CANBusProtocol>
+        <Protocol id = "0">[0]Benz_Protocol_type_5.0C</Protocol>
+		<Protocol id = "1">[1]Benz_Protocol_type_5.0A</Protocol>
+		<Protocol id = "2">[2]Benz_Protocol_type_4.0</Protocol>
+		<Protocol id = "3">[3]Benz_Protocol_type_4.5</Protocol>
+		<Protocol id = "4">[4]Benz_Protocol_type_3.5</Protocol>
+    </CANBusProtocol>
+
+    <!-- 支持的语言列表 -->
+    <SupportLanguageList>
+        <Item id="0" name = "简体中文" tips ="简体中文" />
+        <Item id="1" name = "繁體中文" tips ="繁體中文" />
+        <Item id="2" name = "English" tips ="英文"/>
+        <Item id="3" name = "Deutsch" tips ="德文-de"/>
+        <Item id="5" name = "Español" tips ="西班牙文-es"/>
+        <Item id="8" name = "한국어" tips ="韩文-ko"/>
+        <Item id="9" name = "Italiano" tips ="意大利文-it"/>
+        <Item id="13" name = "Nederlands" tips ="荷兰文-nl"/>
+        <Item id="6" name = "Pусский" tips ="俄文-ru"/>
+        <Item id="15" name = "Français" tips ="法语-fr"/>
+        <Item id="4" name = "Português" tips ="葡萄牙文-pt"/>
+        <Item id="11" name = "Türkçe" tips ="土耳其文-tr_rTR"/>
+        <Item id="12" name = "Tiếng Việt" tips ="越南文-vi-rVN"/>
+    <!--
+        <Item id="7" name = "日本語" tips ="日文-ja"/>
+        <Item id="10" name = "Suomi" tips ="芬兰文"/>
+        <Item id="14" name = "עברית" tips ="希伯来文(以色列)-he_rIL"/>
+        <Item id="15" name = "Ελληνικά" tips ="希腊文-el"/>
+    -->
+
+    </SupportLanguageList>
+
+    <!-- 支持的UI -->
+    <SupportUIList>
+
+        <Item id="4" name = "Benz_NTG6" />
+        <Item id="5" name = "Benz_MBUX" />
+    </SupportUIList>
+
+    <!-- 系统设置 -->
+    <setings>
+        <!-- 导航软件包名-->
+        <NaviApp>com.google.android.apps.maps</NaviApp>
+
+        <!-- 后视摄像头镜像 0：不镜像  1：镜像-->
+        <RearCamMirror>0</RearCamMirror>
+        <!-- 行车时禁止视频 0：允许播放视频  1：禁止播放视频-->
+        <DoNotPlayVideosWhileDriving>0</DoNotPlayVideosWhileDriving>
+        <!-- 倒车时显示轨迹 0：不显示  1：显示-->
+        <ShowTrack>1</ShowTrack>
+        <!-- 倒车时显示雷达 0：不显示  1：显示-->
+        <ShowRadar>1</ShowRadar>
+        <!-- 倒车静音： 0：非静音 1：静音-->
+        <ReversingMuteSelect>0</ReversingMuteSelect>
+
+        <!-- 是否打开前视摄像头：0：否  1：是  -->
+        <Front_view_camera>0</Front_view_camera>
+
+        <!-- 倒车摄像头选择 0：后装摄像头  1：原车摄像头  2：后装360摄像头-->
+        <RearCamType>0</RearCamType>
+        <!-- 亮度 0～100 -->
+        <Brightness>70</Brightness>
+
+        <!-- 后装模式媒体音量 0～40 -->
+        <Android_media_vol>26</Android_media_vol>
+        <!-- 后装模式通话音量 0～40 -->
+        <Android_phone_vol>28</Android_phone_vol>
+        <!-- 原车模式通话音量 0～40 -->
+        <Car_phone_vol>20</Car_phone_vol>
+        <!-- 原车模式导航音量 0～40 -->
+        <Car_navi_vol>20</Car_navi_vol>
+
+        <!-- 系统语言 见 SupportLanguageList -->
+        <Language>2</Language>
+
+        <!-- 时间同步源 0：安卓时间  1：原车时间-->
+        <TimeSyncSoucrce>0</TimeSyncSoucrce>
+        <!-- 时间制式 0：24小时制  1：12小时制-->
+        <TimeFormat>0</TimeFormat>
+
+        <!-- 导航混音比例 0：关闭  1：30% 2：40% 3：50% 4：60%  5：70%-->
+        <NaviMix>3</NaviMix>
+
+        <!-- 0 :自定义 1:流行 2:古典 3:搖滾 4:爵士 5:舞曲-->
+        <EQ_mode>0</EQ_mode>
+        <!-- 低音 0~24 : 0 =>-12  12=>0  24=>+12 -->
+        <Bass_value>12</Bass_value>
+        <!-- 中音 0~24 : 0 =>-12  12=>0  24=>+12 -->
+        <Middle_value>12</Middle_value>
+        <!-- 高音 0~24 : 0 =>-12  12=>0  24=>+12 -->
+        <Treble_value>12</Treble_value>
+
+        <!-- 原车AUX项位置 0~12， 0为关闭原车AUX自动切换 -->
+        <CarAuxIndex>2</CarAuxIndex>        
+       
+        <!-- 温度单位：0：摄氏度  1：华氏度  -->
+        <TempUnit>0</TempUnit>
+    </setings>
+
+    <!-- 工厂设置 -->
+    <factory>
+        <!-- 配置文件版本信息 -->
+        <ver>GS-Benz-20191211.en</ver>
+
+        <client>GS</client>
+
+        <!-- 工厂设置密码(4~6位数) -->
+        <password>1314</password>
+
+        <!-- 安卓7.1 UI选择  见 SupportUIList  -->
+        <UI>2</UI>
+        <!-- 安卓9.0 UI选择  见 SupportUIList  -->
+        <UI_type>Benz_NTG6</UI_type>
+
+        <!-- 原车视频显示风格 0：全屏显示  1：半屏显示，右边显示行车电脑信息  -->
+        <CarVideoDisplayStyle>0</CarVideoDisplayStyle>
+
+        <!-- Audi主页左边Logo: 0:不显示 1:A4 2:A4_old 3:A4L 4:A3 5:A5 6:A6 7:Q3 8:Q5 9:Q7-->
+        <Audi_Logo_Left>1</Audi_Logo_Left>
+        <!-- Audi主页右边Logo: 0:不显示 1:显示AUDI LOGO 和 高德导航信息 2:仅显示 AUDI LOGO 3:显示行车信息 4:显示音乐信息 -->
+        <Audi_Logo_Right>1</Audi_Logo_Right>
+
+        <!-- GoogleAPP: 0:关闭  1:打开   -->
+        <GoogleAPP>1</GoogleAPP>
+
+        <!-- 支持FM发射器：0：否  1：是  -->
+        <Support_FM_Transmit>0</Support_FM_Transmit>
+        <!-- 支持仪表盘：0：否  1：是  -->
+        <Support_dashboard>1</Support_dashboard>
+
+        <!-- DVD模块类型: 0:关闭  1: DVD软件1  -->
+        <DVD_Type>0</DVD_Type>
+        <!-- AUX功能开关 （0关闭， 1打开）-->
+        <AUX_Type>1</AUX_Type>
+        <!-- DTV功能开关 （0关闭， 1打开）-->
+        <DTV_Type>0</DTV_Type>
+        <!-- DVR模块类型: 0:关闭  1: CVBS DVR  2:USB DVR（使用USB才可以设置下面的DVRApk_packageName，否则无法自定义） -->
+        <DVR_Type>2</DVR_Type>
+        <!-- USB DVR APK包名: 默认:凯富隆  (DVR模块类型为USB DVR时有效)旧: com.anwensoft.cardvr  新: com.ankai.cardvr-->
+        <DVRApk_PackageName>com.ankai.cardvr</DVRApk_PackageName>
+
+        <!-- 蓝牙功能选择: 0: 后装蓝牙 1: 前装蓝牙  -->
+        <BT_Type>0</BT_Type>
+
+        <!-- 第三方APK软件安装: 0:允许  1:禁止  -->
+        <APK_Install>0</APK_Install>
+
+        <!-- AUX 自动切换方式: 1:阿尔派  2:哈曼  3: 其他-->
+        <CarAux_auto_method>3</CarAux_auto_method>
+        <!-- 原车AUX切换方式: 0:自动切换  1:手动切换   -->
+        <CarAux_Operate>0</CarAux_Operate>
+        <!-- 功放选择: 0:原车功放  1:外置功放盒   -->
+        <AMP_Type>0</AMP_Type>
+        <!-- 老款宝马X1(无显示屏): 0:显示时钟  1: 显示原车视频-->
+        <CarDisplay>1</CarDisplay>
+
+        <!-- 是否支持同行者 -->
+        <Support_TXZ>0</Support_TXZ>
+        <!-- 同行者语音唤醒词: -->
+        <TXZ_Wakeup>你好小威</TXZ_Wakeup>
+        <!-- 是否支持同行者语音唤醒 -->
+        <Support_TXZ_Voice_Wakeup>1</Support_TXZ_Voice_Wakeup>
+
+        <!-- CCC_IDrive类型选择 0：IDrive_A  1：IDrive_B   -->
+        <CCC_IDrive>0</CCC_IDrive>
+
+        <!-- 仪表盘最大时速设置：0：240  1：260  2: 300  3:280 -->
+        <Dashboard_MaxSpeed>1</Dashboard_MaxSpeed>
+
+        <!-- 手自挡设置：0：自动挡  1：手动挡-->
+        <HandsetAutomaticSelect>0</HandsetAutomaticSelect>
+
+        <!-- 车门设置：0：左驾驶位  1：右驾驶位 2：车门不显示  -->
+        <CarDoorSelect>0</CarDoorSelect>
+
+        <!-- USB Host模式：0：关  1：开-->
+        <USB_HOST>1</USB_HOST>
+
+        <!-- wifi 或者 4G 版本：0：4G  1：WiFI-->
+        <Wifi_or_4G>0</Wifi_or_4G>
+
+        <!-- 190417 增加 -->
+        <!-- 原车语音键选择 0:无作用 1：短按无作用，长按是导航功能 2：短按是语音功能，长按是导航功能 3：短按是导航功能，长按无作用-->
+        <Voice_key>1</Voice_key>
+
+        <!-- 原车MAP键选择 0:安卓导航 1:原车导航 -->
+        <Map_key>0</Map_key>
+
+        <!-- 360摄像头类型 0:CVBS  1:VGA -->
+        <cam360_video>0</cam360_video>
+
+        <!-- 车门数量：0：4门  1：2门  -->
+        <CarDoorNum>0</CarDoorNum>
+
+        <!-- 190522 增加 -->
+        <!-- 原车Mode键选择 0:有作用 1：无作用-->
+        <Mode_key>0</Mode_key>
+
+        <!-- 背光自动控制：0：小灯控制  1：关闭  -->
+        <Backlight_auto_set>0</Backlight_auto_set>
+
+        <!-- 奔驰控制面板：0：关  1：开  -->
+        <BenzPanelEnable>0</BenzPanelEnable>
+
+        <!-- 仪表盘单位：0：公制  1：英制  -->
+        <DashBoardUnit>0</DashBoardUnit>
+
+        <!-- 仪表盘选择 0：通用  2：七色仪表盘-->
+        <Dashboard_Select>2</Dashboard_Select>
+
+        <!-- AHD摄像头设置 0:不支持  1:AHD_1080_30 2:AHD_1080_25  3:AHD_720_30 4:AHD_720_25  5:AHD_720_50  6:CVBS_NTSC 7:CVBS_PAL -->
+        <AHD_cam_Select>0</AHD_cam_Select>
+
+        <!-- 翼卡车联网 0:关闭  1:打开-->
+        <e_car>0</e_car>
+
+    </factory>
+</ConfigInfo>
