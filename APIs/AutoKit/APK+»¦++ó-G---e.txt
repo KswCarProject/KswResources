@@ -1,0 +1,8 @@
+apk集成到 /system/app 与 /data/app 都可以使用，注意事项如下：
+1、若集成到  /data/app，需要修改frameworks/base/packages/SystemUI/src/com/android/systemui/usb/UsbPermissionActivity.java
+﻿- - setupAlert();
+++ mPermissionGranted = true;
+++ finish();
+来避免每次使用时弹出USB权限请求框
+2、若集成到 /system/app，由于此时APK有系统权限，就无需更改底层代码，但是需要单独PUSH APK下的so文件到/system/lib 目录
+3、若需要增加方控、来电处理等交互的功能，需要按照接口文档处理或发送相应的广播消息
